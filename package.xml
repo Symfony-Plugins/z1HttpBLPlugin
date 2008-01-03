@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>z1HttpBLPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>symfony HttpBL Plugin</summary>
+ <description>Plugin which allows you to verify IP addresses of clients connecting to your server against the Project Honey Pot database. You find more informarion on official project-site: http://www.projecthoneypot.org/</description>
+ <lead>
+  <name>Hermann Bernwald</name>
+  <user>b166er</user>
+  <email>httpbl@zero1.ath.cx</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-11-16</date>
+ <time>02:19:50</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="390e08bedd6505e7d0ac7beb09ec9db6" name="config/app.yml" role="data" />
+   <file md5sum="319cbc39b3d007778fa8aadd103cbef4" name="lib/z1BaseHttpBL.class.php" role="data" />
+   <file md5sum="527de959ccd43d95606dd6ecda0678cd" name="lib/z1BaseResponseHttpBL.class.php" role="data" />
+   <file md5sum="f3cd397b7aaf79ab882669b482c500ea" name="lib/z1HttpBL.class.php" role="data" />
+   <file md5sum="1523d1ffd2b34b35f830b354d6fef640" name="lib/z1HttpBLFilter.class.php" role="data" />
+   <file md5sum="67ad4e17ff2578a87e13b12ba6ab3356" name="lib/z1ResponseHttpBL.class.php" role="data" />
+   <file md5sum="735afc22f5067a84314266477aecf99d" name="test/unit/z1HttpBLTest.php" role="data" />
+   <file md5sum="15d3c2cb9c0c94ec17f2b67b21f30048" name="test/unit/z1ResponseHttpBLTest.php" role="data" />
+   <file md5sum="168acc2d89298b8896af9cec41a20dd2" name="README" role="data" />
+   <file md5sum="80cb7e6169e5931443bc7f205a03dd7e" name="LICENSE" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0.0</min>
+    <max>1.1.0</max>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog />
+</package>

@@ -1,0 +1,11 @@
+all:
+  httpbl:
+    dns_host:      dnsbl.httpbl.org
+    access_key:    xxxxxxxxxx                # u must be registered on http://www.projecthoneypot.org/ (its free!)
+    banned_link:   http://redirect-link      # redirect to honey-pot link if ip has badguy
+
+    # full description of result codes on:
+    # http://www.projecthoneypot.org/httpbl_api.php
+    max_age:       6                         # maximum number of days since last activity; above this number the ip wont be banned
+    min_score:     30                        # represent minimum score; after above this number script will be banned the ip
+    min_type:      1                         # represent the minimum value, what the code must be, to identify this as bad guy
